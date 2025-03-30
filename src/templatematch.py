@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
 
-from utils import Config
+from .utils import Config
 
 class TemplateMatching():
     def __init__(self, config):
@@ -95,7 +95,7 @@ class TemplateMatching():
                                angle))
             box = np.int32(box)
             
-            cv2.drawContours(output_image, [box], 0, (0, 0, 255), 2)  # Red rectangle
+            cv2.drawContours(output_image, [box], 0, (255, 0, 0), 2)  # Red rectangle
             cv2.circle(output_image, (center_x, center_y), 3, (0, 255, 0), -1)  # Green center point
         return output_image
 

@@ -1,1 +1,2 @@
-from templatematch import TemplateMatching
+from .templatematch import TemplateMatching
+from .channelwidth import ChannelWidth
