@@ -1,5 +1,5 @@
 {
-    "matched_thresh": 0.4,
+    "matched_thresh": 0.5,
     "rot_range": [0, 360],
     "rot_interval": 10,
     "scale_range": [100, 150],
